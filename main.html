@@ -8,6 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Job Application Form</h1>
+	<form method="post" ation="/submit" >
+		<label for="name">Name</label>
+		<input id="name" type="text" required/>
+		<label for="email">Email</label>
+		<input type="email" id="email" required/>
+		<label>Gender</label>
+		<input type="radio" name="gender" required value="male"/>
+		<input type="radio" name="gender" required value="female"/>
+		<label for="laptop">Laptop Brands</label>
+		<select id=laptop>
+			<option value="Apple">Apple</option>
+			<option value="Asus">Asus</option>
+			<option value="HP">HP</option>
+		</select>
+		<label for="age">Age</label>
+		<input required type="number" id="age"/>
+		<label for="dob">Date of Birth</label>
+		<input id="dob" type="date" required/>
+		<label for="password">Password</label>
+		<input id="password" required type="password"/>
+		<label for="portfolio">Portfolio URL</label>
+		<input id="portfolio" type="text"/>
+		<button type="submit">submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
